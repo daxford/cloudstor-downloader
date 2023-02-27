@@ -1,13 +1,12 @@
 # Cloudstor Downloader
 
 A Python package to download files from a Cloudstor folder using the cloudstor module. The package includes methods to download all files in a folder and its subdirectories, filter files by extension, and download files using multiple processes for increased speed.
-Installation
-
-## Install the package from PyPI using pip:
-
-    pip install cloudstor_downloader
 
 ## Usage
+
+Install the required modules by running:
+
+    pip install -r requirements.txt
 
 To use the package, simply import the CloudstorDownloader class and instantiate an object with a destination folder and a Cloudstor URL:
 
@@ -41,6 +40,6 @@ You can specify the number of worker processes to use for downloading by passing
 
 ## Requirements
 
-    Python 3.6 or later
-    cloudstor
-    tqdm
+    Python 3.6 or higher
+    The cloudstor module (pip install cloudstor)
+    The tqdm module (pip install tqdm)
